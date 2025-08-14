@@ -26,16 +26,6 @@ Communication language of the client and server.
 list of common HTML tags and their purposes:
 
 **Structure & Document Setup**
-```js
-<html> – Root element of an HTML page.
-
-<head> – Contains metadata, title, styles, and scripts.
-
-<title> – Sets the page title in the browser tab.
-
-<body> – Contains the visible page content.
-
-```
 
 ```
 <html> – Root element of an HTML page.
@@ -49,7 +39,7 @@ list of common HTML tags and their purposes:
 
 **Text Formatting**
 
-```json
+```
 <h1> to <h6> – Headings (h1 is largest, h6 is smallest).
 
 <p> – Paragraph.
@@ -67,7 +57,7 @@ list of common HTML tags and their purposes:
 
 **Links & Media**
 
-```json
+```
 
 <a> – Hyperlink.
 
@@ -80,7 +70,7 @@ list of common HTML tags and their purposes:
 
 **Lists**
 
-```json
+```
 
 <ul> – Unordered list.
 
@@ -92,7 +82,7 @@ list of common HTML tags and their purposes:
 ```
 
 **Tables**
-```json
+```
 
 <table> – Table container.
 
@@ -105,7 +95,7 @@ list of common HTML tags and their purposes:
 ```
 **Forms**
 
-```json
+```
 <form> – Form container.
 
 <input> – Input field.
@@ -121,7 +111,7 @@ list of common HTML tags and their purposes:
 
 **Layout & Semantics**
 
-```json
+```
 <div> – Block-level container.
 
 <header> – Page or section header.
@@ -142,7 +132,7 @@ list of common HTML tags and their purposes:
 ### Tags Attributes:
 **1. Global Attributes:**
 
-```json
+```
 <p id="intro">Hello</p>
 <div class="box"></div>
 <h1 style="color:red;">Title</h1>
@@ -151,20 +141,20 @@ list of common HTML tags and their purposes:
 ```
 
 **2.Anchor (< a >):**
-```json
+```
 <a href="https://nipa.com">Visit</a>  
 <a href="x" target="_blank">New Tab</a>  
 <a rel="nofollow">Link</a>
 ```
 
 **3.Image (< img >):**
-```json
+```
 <img src="nipa.jpg">  
 <img src="nipa.jpg" alt="Flower">  
 <img src="nipa.jpg" width="200">
 ```
 **4.Input (< input >):**
-```json
+```
 <input type="text">  
 <input name="username">  
 <input value="nipa">  
@@ -175,7 +165,7 @@ list of common HTML tags and their purposes:
 ```
 
 **5.Table (< table >)**
-```json
+```
 <table border="1">  
 <table cellpadding="5">  
 <table cellspacing="2">
@@ -184,7 +174,7 @@ list of common HTML tags and their purposes:
 
 ### Meta Tags:
 list of common HTML <meta> tags with examples:
-```json
+```
 | Meta Tag Purpose                   | Example                                                                     |
 | ---------------------------------- | --------------------------------------------------------------------------- |
 | Charset (character encoding)       | `<meta charset="UTF-8">`                                                    |
@@ -198,7 +188,7 @@ list of common HTML <meta> tags with examples:
 ```
 ### Text Emphasis Tags:
 List of HTML text emphasis tags with their purpose and examples, suitable for reference:
-```json
+```
 | Tag        | Purpose                                             | Example                                   |
 | ---------- | --------------------------------------------------- | ----------------------------------------- |
 | `<b>`      | Bold text (stylistic, no extra importance)          | `<b>This text is bold</b>`                |
