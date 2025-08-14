@@ -37,7 +37,7 @@ list of common HTML tags and their purposes:
 
 ```
 
-```json
+```
 <html> – Root element of an HTML page.
 
 <head> – Contains metadata, title, styles, and scripts.
