@@ -26,6 +26,16 @@ Communication language of the client and server.
 list of common HTML tags and their purposes:
 
 **Structure & Document Setup**
+```js
+<html> – Root element of an HTML page.
+
+<head> – Contains metadata, title, styles, and scripts.
+
+<title> – Sets the page title in the browser tab.
+
+<body> – Contains the visible page content.
+
+```
 
 ```json
 <html> – Root element of an HTML page.
