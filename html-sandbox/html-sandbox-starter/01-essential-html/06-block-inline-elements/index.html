@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Block vs Inline Elements</title>
+    <style>
+        .block {
+            background-color: lightblue;
+            padding: 10px;
+            margin: 5px 0;
+        }
+
+        .inline {
+            background-color: #b3adad;
+            padding: 5px;
+            margin: 2px;
+        }
+    </style>
+</head>
+<body>
+
+<!--Block Elements-->
+<h2>Block Elements</h2>
+<p class="block">Hi, I am trying to practice block elements.</p>
+<section class="block">Also trying section tag in block elements.</section>
+
+<!--Inline ELements-->
+<h2>Inline Elements</h2>
+<span class="inline">This is a SPAN tag in inline.</span>
+<a href="#" class="inline">This is an A tag in inline elements.</a>
+
+<!--Mixed elements-->
+<h2>Mixed Example</h2>
+<p class="block">
+    This is a paragraph with
+    <span class="inline">a span</span>
+    and <a href="#" class="inline">a link</a> inside.
+</p>
+
+</body>
+</html>

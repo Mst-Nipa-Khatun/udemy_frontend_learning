@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+    <title>Anchor Tags</title>
+</head>
+<body>
+<h2>External Link</h2>
+<a href="https://www.google.com" title="Go to Google Homepage">
+    Visit Google
+</a>
+
+<h2>Open Link in New Tab</h2>
+<a href="https://www.wikipedia.org" target="_blank" title="Visit Wikipedia">
+    Visit Wikipedia
+</a>
+
+<h2>Relative Link</h2>
+<a href="Nipa.html" title="View Nipa's Details Page">
+    Visit Nipa's Details
+</a>
+<h2>Internal Link</h2>
+<a href="#nipa" title="View Nipa's Skills">Go to Nipa's Skills Section</a>
+
+<h2>Email Link</h2>
+<a href="mailto:someone@example.com" title="Send an Email">
+    Send Email
+</a>
+
+
+<h2>File Link</h2>
+<a href="Mst_Nipa_Khatun.pdf" download title="Download Sample PDF">
+    Download Nipa's CV File
+</a>
+
+<h2>Title Attribute</h2>
+<a href="Mst_Nipa_Khatun.pdf" title="Download Nipa's PDF">
+    About Nipa
+</a>
+
+<p>
+    OWASP Top 10 (Web App Risks)
+
+    Broken Access Control: Unauthorized users can access restricted functions/data.
+
+    Cryptographic Failures: Weak encryption or no encryption for sensitive data.
+
+    Injection: SQL, NoSQL, OS command injection flaws.
+
+    Insecure Design: Weak architecture or insecure workflows.
+
+    Security Misconfiguration: Default passwords, open ports, unpatched systems.
+
+    Vulnerable Components: Using outdated/unsafe libraries or software.
+
+    Identification & Authentication Failures: Poor session handling, weak authentication.
+
+    Data Integrity Failures: Tampering with critical data (e.g., payment amounts).
+
+    Logging & Monitoring Failures: No logs or alerting for security events.
+
+    SSRF (Server-Side Request Forgery): Attacker tricks server into making requests to unintended locations.
+</p>
+<p id="nipa">
+<h3>Skills</h3>
+- Programming Languages: Java, Python, JavaScript, PHP<br>
+- Web Development: HTML, CSS, Bootstrap, Laravel, Spring Boot<br>
+- Database: MySQL, PostgreSQL<br>
+- Tools & Technologies: Git, Docker, REST APIs, JWT Authentication
+</p>
+
+<h2>Download Link</h2>
+<a href="Mst_Nipa_Khatun.pdf.pdf" download title="Download Sample PDF">
+    Download Nipa's File
+</a>
+
+
+<h2>Phone Link</h2>
+<a href="tel:+1234567890" title="Call Now">
+    Call Us
+</a>
+
+<h2>Image as a Link</h2>
+<a href="https://www.openai.com" target="_blank" rel="noopener noreferrer">
+    <img src="logo.png" alt="OpenAI Logo" width="100">
+</a>
+</body>
+
+</html>
