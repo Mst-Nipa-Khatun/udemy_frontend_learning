@@ -142,7 +142,7 @@ list of common HTML tags and their purposes:
 
 **2.Anchor (< a >):**
 ```
-<a href="https://nipa.com">Visit</a>  
+<a href="https://www.google.com">Visit</a>  
 <a href="x" target="_blank">New Tab</a>  
 <a rel="nofollow">Link</a>
 ```
@@ -152,6 +152,9 @@ list of common HTML tags and their purposes:
 <img src="nipa.jpg">  
 <img src="nipa.jpg" alt="Flower">  
 <img src="nipa.jpg" width="200">
+<img src="images/landscape.jpg" alt="landscope",height="200" width="400" title="A Nice Image" />
+src="images/landscape.jpg" alt="landscope",height="200" width="400" title="A Nice Image" />
+     <figcaption>Fig 1- A Nice Landscope</figcaption>
 ```
 **4.Input (< input >):**
 ```
@@ -201,5 +204,65 @@ List of HTML text emphasis tags with their purpose and examples, suitable for re
 | `<ins>`    | Inserted/underlined text                            | `<ins>This text is inserted</ins>`        |
 | `<sub>`    | Subscript text                                      | `H<sub>2</sub>O`                          |
 | `<sup>`    | Superscript text                                    | `x<sup>2</sup>`                           |
+
+```
+
+### Block VS Inline Elements:
+
+```
+| Property          | Block Elements                                     | Inline Elements                             |
+|-------------------|----------------------------------------------------|----------------------------------------------|
+| Width             | Occupies the full width of its parent container    | Occupies only as much width as needed        |
+| Line Break        | Always starts on a new line                        | Does not start on a new line                 |
+| Containment       | Can contain block and inline elements              | Usually contains only inline elements        |
+| Height & Width    | Can be set using CSS                               | Height and width usually have no effect      |
+| Example Tags      | `<div>`, `<p>`, `<h1>`–`<h6>`, `<section>`, `<ul>` | `<span>`, `<a>`, `<strong>`, `<em>`, `<img>` |
+
+```
+
+### HTML Entities:
+Some common HTML Entities
+
+```
+| Entity Name | Symbol | Description |
+|-------------|--------|-------------|
+| `&lt;`      | <      | Less than sign |
+| `&gt;`      | >      | Greater than sign |
+| `&amp;`     | &      | Ampersand |
+| `&quot;`    | "      | Double quotation mark |
+| `&apos;`    | '      | Apostrophe / single quote |
+| `&nbsp;`    |        | Non-breaking space |
+| `&copy;`    | ©      | Copyright symbol |
+| `&reg;`     | ®      | Registered trademark |
+| `&trade;`   | ™      | Trademark |
+| `&cent;`    | ¢      | Cent sign |
+| `&pound;`   | £      | Pound sterling |
+| `&yen;`     | ¥      | Yen sign |
+| `&euro;`    | €      | Euro sign |
+| `&deg;`     | °      | Degree symbol |
+| `&plusmn;`  | ±      | Plus-minus sign |
+| `&divide;`  | ÷      | Division sign |
+| `&times;`   | ×      | Multiplication sign |
+| `&sup2;`    | ²      | Superscript 2 |
+| `&sup3;`    | ³      | Superscript 3 |
+
+```
+
+### Sementic Elements:
+
+```
+| Element        | Purpose                                            |
+| -------------- | ------------------------------------------------------ |
+| `<header>`     | Defines a header for a page or section.                |
+| `<nav>`        | Defines navigation links.                              |
+| `<main>`       | Defines the main content of the document.              |
+| `<section>`    | Defines a standalone section of content.               |
+| `<article>`    | Defines independent, self-contained content.           |
+| `<aside>`      | Defines content aside from the main content (sidebar). |
+| `<footer>`     | Defines footer for a page or section.                  |
+| `<figure>`     | Defines self-contained content, often with an image.   |
+| `<figcaption>` | Defines a caption for `<figure>`.                      |
+| `<address>`    | Defines contact information for author/owner.          |
+| `<time>`       | Defines a date or time.                                |
 
 ```
