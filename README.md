@@ -1,11 +1,12 @@
 # udemy_frontend_learning
 
+#### URL-Uniform Resource Locator
 
 
 ![img_1.png](img_1.png)
 
-URL-Uniform Resource Locator
 
+How web works:
 
 ![img_2.png](img_2.png)
 
