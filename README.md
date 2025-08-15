@@ -315,3 +315,27 @@ Used for various types of user input.
 <input type="submit" value="Login">
 
 ```
+
+### Text Based Inputs attributes:
+
+**type** → defines input type, e.g., text
+
+**name** → name of the input, used when submitting form data
+
+**id** → unique identifier, often linked with <label>
+
+**placeholder** → hint text shown inside the input
+
+**value** → default value of the input
+
+**maxlength** → maximum number of characters allowed
+
+**required** → makes the field mandatory
+
+**readonly** → user cannot edit the value
+
+**disabled** → field is disabled, cannot be edited or submitted
+
+**autocomplete** → suggests previous input values
+
+**autofocus** → automatically focuses input when page loads
