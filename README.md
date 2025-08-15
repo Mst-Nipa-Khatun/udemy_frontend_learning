@@ -266,3 +266,52 @@ Some common HTML Entities
 | `<time>`       | Defines a date or time.                                |
 
 ```
+
+## Section3:
+
+**1. < form > Element:**
+The container for all form elements. It defines how data is sent and to where.
+
+Attributes:
+
+**action** → URL to send form data.<br>
+**method** → GET or POST (how data is sent).
+```
+<form action="/submit" method="post">
+      <input type="text" name="username" placeholder="Enter username">
+</form>
+```
+
+**2. < input >** Elements Types:
+
+Used for various types of user input.
+
+**Common type values:**<br>
+
+**text** → single-line text<br>
+**password** → password input<br>
+**email** → email input<br>
+**number** → numeric input<br>
+**checkbox** → checkboxes<br>
+**radio** → radio buttons<br>
+**submit** → submit button<br>
+**file** → file upload<br>
+**tel** → telephone number<br>
+**url** → URL input<br>
+**date** → date picker<br>
+**time** → time picker<br>
+**datetime-local** → local date & time picker<br>
+**month** → month picker<br>
+**week** → week picker<br>
+**color** → color picker<br>
+**range** → slider for numeric range<br>
+**hidden** → hidden input (not visible)<br>
+**reset** → reset button<br>
+**button** → generic clickable button<br>
+**image** → image as submit button<br>
+```
+<input type="text" name="username" placeholder="Enter username">
+<input type="password" name="password">
+<input type="submit" value="Login">
+
+```
