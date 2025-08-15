@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Datalist-HTML & CSS Sandbox</title>
+</head>
+<body>
+<h1>HTML & CSS Sandbox - Datalist</h1>
+
+<form>
+  <label for="language">Choose your favorite programming language:</label>
+  <input list="languages" id="language" name="language" placeholder="Type or choose...">
+
+  <datalist id="languages">
+    <option value="Python">
+    <option value="Java">
+    <option value="JavaScript">
+    <option value="C++">
+    <option value="C#">
+    <option value="PHP">
+    <option value="Go">
+  </datalist>
+
+  <br><br>
+
+<!--  Time-->
+
+  <input type="time" list="popularHours">
+  <datalist id="popularHours">
+    <option value="10.00"></option>
+    <option value="11.00"></option>
+    <option value="12.00"></option>
+
+  </datalist>
+  <label for="tick">Select Tip Amount:</label>
+  <input type="range" list="tickmarks" id="tick" name="tick" min="0" max="100">
+  <datalist id="tickmarks">
+    <option value="0">
+    <option value="10">
+    <option value="20">
+    <option value="30">
+    <option value="40">
+    <option value="50">
+    <option value="60">
+    <option value="70">
+    <option value="80">
+    <option value="90">
+    <option value="100">
+  </datalist>
+  <br><br>
+
+  <label for="color">Choose color:</label>
+  <input type="color" id="color" name="color" list="redColors">
+  <datalist id="redColors">
+    <option value="#800000"></option>
+    <option value="#800000"></option>
+    <option value="#8B0000"></option>
+    <option value="#870000"></option>
+    <option value="#800000"></option>
+  </datalist><br><br>
+
+  <input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
