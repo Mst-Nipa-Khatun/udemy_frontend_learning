@@ -25,14 +25,15 @@
     <br><br>
 
     <!--  Time-->
-
-    <input type="time" list="popularHours">
+    <label for="time">Select Time:</label>
+    <input type="time" id="time" list="popularHours">
     <datalist id="popularHours">
         <option value="10.00"></option>
         <option value="11.00"></option>
         <option value="12.00"></option>
 
     </datalist>
+    <br><br>
     <label for="tick">Select Tip Amount:</label>
     <input type="range" list="tickmarks" id="tick" name="tick" min="0" max="100">
     <datalist id="tickmarks">
