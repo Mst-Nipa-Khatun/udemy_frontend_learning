@@ -339,3 +339,80 @@ Used for various types of user input.
 **autocomplete** → suggests previous input values
 
 **autofocus** → automatically focuses input when page loads
+
+
+<hr>
+
+### Section 4:
+**SVG Elements:** SVG stands for Scalable Vector Graphics.<br>
+
+**Basic Concept :**
+
+**Scalable**: You can resize without pixelation (perfect for responsive design).
+
+**Vector-based:** Uses points, lines, curves, and shapes, not pixels.
+
+**Text-based:** You can write it in code (XML), so it’s editable and searchable.
+
+**Lightweight**: Smaller file sizes for simple graphics compared to images.
+
+**Styling**: Can be styled with CSS or manipulated with JavaScript.
+
+**Interactive**: Supports animations and events.
+
+```
+<svg> — Container for SVG graphics.
+
+<circle> — Draws a circle (cx, cy = center, r = radius).
+
+<rect> — Draws a rectangle.
+
+<line> — Draws a line.
+
+<text> — Adds text inside SVG.
+```
+
+<hr>
+
+### Section 5:
+**CSS (Cascading Style Sheets) – Basic Concept:**
+HTML builds the structure of a webpage, and CSS makes it look attractive.
+
+**CSS Does:**
+
+Change text color, font, and size
+
+Add background colors and images
+
+Control margin, padding, and borders
+
+Create layouts (using Grid, Flexbox, etc.)
+
+Make websites responsive (adapt to mobile, tablet, desktop)
+
+
+**Three Ways to Use CSS:**<br>
+
+**1.Inline CSS** → Written inside the HTML tag using the style attribute.
+```
+<p style="color:red; font-size:20px;">Hello CSS</p>
+```
+**2.Internal CSS** → Written inside a < style > tag in the HTML <head>.
+
+```
+<head>
+  <style>
+    p {
+      color: blue;
+      font-size: 18px;
+    }
+  </style>
+</head>
+
+```
+
+**3.External CSS** → Written in a separate .css file and linked using <link>.
+```
+<link rel="stylesheet" href="style.css">
+
+```
