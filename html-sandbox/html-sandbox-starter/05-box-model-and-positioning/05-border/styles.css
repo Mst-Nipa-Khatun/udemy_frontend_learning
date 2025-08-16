@@ -9,8 +9,28 @@ body {
 }
 
 .box {
-  background: coral;
+  /*background: coral;*/
   max-width: 400px;
   margin: 20px;
   padding: 20px;
+  border: 2px solid black;
+
+ /* Same as above*/
+ /* border-width: 2px;
+  border-style: dashed;
+  border-color: #8a1313;*/
+}
+
+.one{
+  border: none ;
+  border-top: solid #04419f 4px;
+  border-bottom: solid red 4px;
+}
+
+.box-2{
+  border-radius: 50px;
+}
+.box-3{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
 }
