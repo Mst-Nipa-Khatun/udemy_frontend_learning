@@ -12,20 +12,20 @@ body {
     padding: 0 20px;
     /*background-color: #c8856e;*/
 
-  /*  Background image part */
+    /*  Background image part */
 
-  /*  !*background-image: url("texture.png");*!
-    background-image: url("hero.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    !*background-position: url('hero.jpg') no-repeat center/cover;*!
-    background-attachment: fixed;*/
+    /*  !*background-image: url("texture.png");*!
+      background-image: url("hero.jpg");
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: center;
+      !*background-position: url('hero.jpg') no-repeat center/cover;*!
+      background-attachment: fixed;*/
 
     /* Linear gradient*/
-    background: linear-gradient(to bottom, lightblue,darkblue);
-    background: linear-gradient(to left, lightcyan,darkblue);
-    background: linear-gradient(to right, lightcyan,darkblue);
+    background: linear-gradient(to bottom, lightblue, darkblue);
+    background: linear-gradient(to left, lightcyan, darkblue);
+    background: linear-gradient(to right, lightcyan, darkblue);
 
 }
 
