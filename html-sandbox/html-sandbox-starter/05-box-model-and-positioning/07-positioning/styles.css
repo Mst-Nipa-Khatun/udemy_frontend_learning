@@ -1,101 +1,102 @@
 body {
-  font-family: Arial, sans-serif;
-  margin: 20px;
-  background: #f4f4f9;
-  color: #333;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background: #f4f4f9;
+    color: #333;
 }
 
 header {
-  text-align: center;
-  margin-bottom: 40px;
+    text-align: center;
+    margin-bottom: 40px;
 }
 
 header h1 {
-  color: #2a2a72;
+    color: #2a2a72;
 }
 
 header p {
-  font-size: 1rem;
-  max-width: 700px;
-  margin: 0 auto;
-  line-height: 1.5;
+    font-size: 1rem;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.5;
 }
 
 /* Container for Boxes */
 .container {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 20px;
-  justify-content: center;
-  margin-bottom: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 50px;
 }
 
 .box {
-  width: 200px;
-  height: 200px;
-  background: lightblue;
-  border: 2px solid #000;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: bold;
-  font-size: 1rem;
-  color: #000;
-  position: relative; }
+    width: 200px;
+    height: 200px;
+    background: lightblue;
+    border: 2px solid #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    color: #000;
+    position: relative;
+}
 
 .box1 {
-  position: static;
-  background: #87cefa;
+    position: static;
+    background: #87cefa;
 }
 
 .box2 {
-  position: relative;
-  left: 30px;
-  top: 20px;
-  background: #00bfff;
+    position: relative;
+    left: 30px;
+    top: 20px;
+    background: #00bfff;
 }
 
 .box3 {
-  position: fixed;
-  top: 20px;
-  right: 20px;
-  z-index: 10;
-  background: #ff6f61;
-  color: #fff;
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 10;
+    background: #ff6f61;
+    color: #fff;
 }
 
 .box4 {
-  position: sticky;
-  top: 150px;
-  background: #00bfff;
-  color: #fff;
+    position: sticky;
+    top: 150px;
+    background: #00bfff;
+    color: #fff;
 }
 
 .box5 {
-  position: relative;
-  width: 400px;
-  height: 400px;
-  background: #a11faf;
-  color: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 1.2rem;
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background: #a11faf;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
 }
 
 .box6 {
-  position: absolute;
-  bottom: 20px;
-  right: 20px;
-  width: 100px;
-  height: 50px;
-  background: #00bfff;
-  color: #000;
-  font-weight: bold;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border-radius: 5px;
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    width: 100px;
+    height: 50px;
+    background: #00bfff;
+    color: #000;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
 }
 
 
