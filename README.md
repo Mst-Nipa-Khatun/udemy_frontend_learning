@@ -653,3 +653,16 @@ Example: margin: 20px;
 | Content     | width, height, min-width, max-width, min-height, max-height                                         |
 
 ```
+
+### Position Property:
+
+```
+| Position Value    | Description                                                                                                                         |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------- |
+|  static           | Default value. The element is positioned according to the normal flow of the document. `top`, `right`, `bottom`, `left` have no effect. |
+|  relative         | The element is positioned relative to its normal position. `top`, `right`, `bottom`, `left` offsets move it from that position.         |
+|  absolute         | The element is positioned relative to its nearest positioned ancestor (not `static`). It is removed from the normal flow.               |
+|  fixed            | The element is positioned relative to the viewport. It stays in place even when scrolling. Removed from normal flow.                    |
+|  sticky           | The element toggles between `relative` and `fixed` depending on the scroll position. It “sticks” within its parent container.           |
+
+```
