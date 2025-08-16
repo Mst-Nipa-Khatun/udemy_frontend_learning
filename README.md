@@ -591,3 +591,65 @@ p { color: hsla(120, 100%, 50%, 0.5); } /* Semi-transparent green */
 
 ```
 a = alpha channel (0 = fully transparent, 1 = fully visible)
+
+
+
+### Section6:
+**CSS Box Model Properties:**
+
+Every HTML element is treated as a box in CSS. The box model is made up of four main parts:
+
+**1.Content**<br>
+The actual text or image inside the element.
+
+Controlled with width and height.
+
+**2.Padding**<br>
+The space between the content and the border.
+
+Creates inner spacing inside the element.
+
+Example: padding: 10px;
+
+**3.Border**<br>
+The line that goes around content + padding.
+
+You can set thickness, style, and color.
+Example: border: 2px solid black;
+
+**4.Margin**<br>
+The space outside the border, separating the element from others.
+
+Creates outer spacing.
+Example: margin: 20px;
+<br>
+
+**Box Model Diagram:**
+
+
+```
+ -------------------------
+|        Margin           |
+|  ---------------------  |
+|  |      Border       |  |
+|  |  ---------------  |  |
+|  |  |   Padding   |  |  |
+|  |  | ----------- |  |  |
+|  |  |  Content   |  |  |
+|  |  | ----------- |  |  |
+|  |  ---------------  |  |
+|  ---------------------  |
+ -------------------------
+
+```
+
+**Some example of sub propertities:<br>**
+```
+| Property    | Sub-properties                                                                                      |
+| ----------- | --------------------------------------------------------------------------------------------------- |
+| Margin      | margin-top, margin-right, margin-bottom, margin-left                                                |
+| Padding     | padding-top, padding-right, padding-bottom, padding-left                                            |
+| Border      | border-top, border-right, border-bottom, border-left, <br> border-width, border-style, border-color |
+| Content     | width, height, min-width, max-width, min-height, max-height                                         |
+
+```
