@@ -416,3 +416,15 @@ Make websites responsive (adapt to mobile, tablet, desktop)
 <link rel="stylesheet" href="style.css">
 
 ```
+
+### Serif vs Sans-Serif Fonts:
+```
+| Feature         | Serif                                 | Sans-Serif                |
+| --------------- | ------------------------------------- | -------------------------------- |
+| Definition      | Has small decorative strokes (serifs) | No decorative strokes (clean)    |
+| Style           | Traditional, formal, elegant          | Modern, simple, minimal          |
+| Best Use        | Print (books, newspapers, magazines)  | Digital screens (websites, apps) |
+| Readability     | Better for long printed texts         | Better for screens & short texts |
+| Examples        | Times New Roman, Georgia, Garamond    | Arial, Helvetica, Verdana        |
+
+```
