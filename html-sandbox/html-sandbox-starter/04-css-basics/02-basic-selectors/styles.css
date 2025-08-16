@@ -1,0 +1,46 @@
+html,body{
+    font-family: 'Arial',sans-serif;
+    border: 3px solid #572c2c;
+}
+/*Types Selectors*/
+/*h2{
+    color: #a51691;
+    font-size: 30px;
+}
+a{
+    color: #245cb5;
+    text-decoration: none;
+}*/
+/*Class Selector*/
+.sporty{
+    color: #8a1313;
+}
+.casual{
+    color: #007bff;
+}
+.formal{
+    color: #4caf50;
+}
+/*Id selector*/
+
+#container{
+    max-width: 600px;
+    margin: 100px auto;padding: 20px;
+
+}
+
+/*Mutiple styles*/
+.sporty, .casual{
+    font-size: 35px;
+}
+/*
+p{
+    background: #a88891;
+}
+*/
+
+/*Descendant style*/
+/*
+#container{
+background: #aac1ad;
+}*/
