@@ -1,54 +1,56 @@
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
 
 body {
-  font-family: Arial, sans-serif;
+    font-family: Arial, sans-serif;
 }
+
 @media screen and (max-width: 1200px) {
-  .widescreen {
-    background: #9eb7dc;
-  }
+    .widescreen {
+        background: #9eb7dc;
+    }
 }
+
 @media (max-width: 992px) {
-  .normal{
-    background: lightcoral;
-  }
+    .normal {
+        background: lightcoral;
+    }
 }
 
 @media (max-width: 768px) {
-  .tablet{
-    background: #47a147;
-  }
+    .tablet {
+        background: #47a147;
+    }
 }
 
 @media (max-width: 600px) {
-  .smartphone {
-    min-height: 100px;
-    background: rgba(230, 188, 188, 0.8);
-  }
+    .smartphone {
+        min-height: 100px;
+        background: rgba(230, 188, 188, 0.8);
+    }
 }
 
 
 @media (orientation: landscape) {
-  .landscape{
-    background: lightgray;
-  }
-  
+    .landscape {
+        background: lightgray;
+    }
+
 }
 
 @media (max-height: 500px) {
-  .height{
-    background: lightseagreen;
-  }
+    .height {
+        background: lightseagreen;
+    }
 
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
-  body{
-    background: #657080;
-  }
+    body {
+        background: #657080;
+    }
 
 }

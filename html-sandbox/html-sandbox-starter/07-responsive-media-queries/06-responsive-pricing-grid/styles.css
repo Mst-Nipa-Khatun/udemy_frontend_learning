@@ -149,3 +149,19 @@ li {
   color: #98ca9e;
   margin-right: 10px;
 }
+
+
+/* Media Quaries*/
+
+@media (max-width: 768px) {
+  .pricing{
+    flex-direction: column;
+
+  }
+  .container{
+    margin: 2rem;
+    padding: 40px 30px;
+
+  }
+
+}
