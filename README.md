@@ -780,3 +780,31 @@ html {
 }
 
 ```
+
+#### vh and vw units in CSS:
+
+**vh (viewport height)**
+
+vh is relative to the height of the viewport (the visible area of the browser window).
+
+1vh = 1% 
+```
+div {
+  height: 50vh;
+  background-color: lightblue;
+}
+
+```
+
+**vw (viewport width)**
+
+vw is relative to the width of the viewport.
+
+1vw = 1% of viewport width.
+```
+div {
+  width: 80vw; /* 80% of the browser window width */
+  background-color: lightgreen;
+}
+
+```
