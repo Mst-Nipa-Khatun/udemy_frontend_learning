@@ -748,3 +748,35 @@ Responsive design is a web design approach that ensures websites and application
 **Navigation Adaptation** – Menus transform into dropdowns or hamburger menus on small screens.
 
 **Breakpoints** – Predefined screen widths (e.g., 1200px, 992px, 768px, 480px) where the layout changes.
+
+#### em and rem units:
+
+##### em
+em is relative to the font-size of the parent element.
+
+1em = parent element’s font-size.
+
+```
+.parent {
+  font-size: 20px;
+}
+.child {
+  font-size: 2em; /* = 40px (20 × 2) */
+}
+
+```
+
+### rem
+**rem means root em** → it is always relative to the root element (html) font-size.
+
+1rem = html element’s font-size (usually default = 16px).
+
+```
+html {
+  font-size: 16px;
+}
+.child {
+  font-size: 2rem; /* = 32px (16 × 2), independent of parent */
+}
+
+```
