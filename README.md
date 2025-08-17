@@ -666,3 +666,33 @@ Example: margin: 20px;
 |  sticky           | The element toggles between `relative` and `fixed` depending on the scroll position. It “sticks” within its parent container.           |
 
 ```
+
+### Section 7:
+
+**Why Flexbox?**
+
+Before Flexbox, developers mostly used float, table, or inline-block hacks to align items, which was messy. Flexbox solves this by giving us powerful alignment tools in both row and column directions.
+
+**Main Features of Flexbox**
+
+**1.Direction control**
+
+--flex-direction: row; (default → items in a row, left to right)
+
+--flex-direction: column; (stack items top to bottom)
+
+**Alignment along the main axis (row or column)**
+
+-- justify-content: flex-start | flex-end | center | space-between | space-around | space-evenly;
+
+**Alignment along the cross axis (opposite direction)**
+
+ -- align-items: flex-start | flex-end | center | stretch | baseline;
+
+**Wrapping**
+
+-- flex-wrap: wrap; (items wrap to the next line if no space)
+
+**Flexible item sizes**
+
+ -- flex: grow shrink basis; (controls how items expand/shrink)
