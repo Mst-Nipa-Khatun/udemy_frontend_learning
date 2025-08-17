@@ -7,3 +7,15 @@
 body {
   font-family: 'Poppins', sans-serif;
 }
+.container{
+  width: 80%;
+  max-width: 1100px;
+  margin: 60px auto;
+  padding: 30px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
