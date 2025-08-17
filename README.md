@@ -696,3 +696,33 @@ Before Flexbox, developers mostly used float, table, or inline-block hacks to al
 **Flexible item sizes**
 
  -- flex: grow shrink basis; (controls how items expand/shrink)
+
+
+#### Justify Content and Align-items:
+
+**justify-content (align along the main axis)**
+
+```
+.container {
+  display: flex;
+  justify-content: flex-start;   /* items at the start (default) */
+  justify-content: flex-end;     /* items at the end */
+  justify-content: center;       /* items in the center */
+  justify-content: space-between;/* items spread out, first at start, last at end */
+  justify-content: space-around; /* equal space around each item */
+  justify-content: space-evenly; /* equal space between all items */
+}
+
+```
+**align-items (align along the cross axis)**
+```
+.container {
+  display: flex;
+  align-items: stretch;    /* default: items stretch to container’s height */
+  align-items: flex-start; /* items aligned at the top */
+  align-items: flex-end;   /* items aligned at the bottom */
+  align-items: center;     /* items aligned in the middle */
+  align-items: baseline;   /* items aligned by text baseline */
+}
+
+```
