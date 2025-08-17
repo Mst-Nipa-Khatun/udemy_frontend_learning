@@ -1,3 +1,6 @@
+html{
+  /*font-size: 16px;*/
+}
 * {
   margin: 0;
   padding: 0;
@@ -6,4 +9,26 @@
 
 body {
   font-family: 'Poppins', sans-serif;
+}
+.container{
+  padding: 20px;
+  max-width: 900px;
+  margin: 20px;
+  border: 2px solid black;
+  /*font-size: 20px;*/
+
+}
+
+p{
+  font-size: 2rem;
+  margin: 1rem 0;
+}
+h1{
+  font-size: 2rem;
+  padding: 0.3rem 0;
+
+}
+
+ul{
+  font-size: 1.5rem;
 }
