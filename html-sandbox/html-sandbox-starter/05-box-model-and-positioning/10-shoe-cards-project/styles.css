@@ -1,3 +1,68 @@
 body {
   font-family: 'Roboto', sans-serif;
+  margin: 0;
+  background-color: #cfd8dc;
+}
+
+.container {
+  max-width: 800px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+}
+
+.card img {
+  width: 130px;
+  height: auto;
+}
+
+.card-text {
+  max-width: 60%;
+}
+
+.sporty {
+  color: #9e1515;
+}
+
+.casual {
+  color: #165da3;
+}
+
+.formal {
+  color: #5c2e2e;
+}
+
+a {
+  display: inline-block;
+  padding: 10px 15px;
+  margin-top: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#view1 {
+  background-color: #a11313;
+  color: white;
+}
+
+#view2 {
+  background-color: #185693;
+  color: white;
+}
+
+#view3 {
+  background-color: #4c2b2b;
+  color: white;
 }
