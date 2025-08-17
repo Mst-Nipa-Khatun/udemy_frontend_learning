@@ -726,3 +726,25 @@ Before Flexbox, developers mostly used float, table, or inline-block hacks to al
 }
 
 ```
+
+## Section 8: Responsive Design:
+
+Responsive design is a web design approach that ensures websites and applications automatically adjust their layout, content, and functionality to provide an optimal viewing and interaction experience across different devices and screen sizes.
+
+**Common components of responsive design:**
+
+**Fluid Grid Layouts** – Use percentage-based widths instead of fixed pixels so elements scale with screen size.
+
+**Flexible Images & Media** – Images and videos resize automatically to fit their containers.
+
+**Media Queries** – CSS rules that apply different styles for different screen widths (e.g., mobile vs. desktop).
+
+**Viewport Meta Tag** – Ensures the browser displays the page correctly on mobile devices.
+
+**Mobile-First Design** – Designing for smaller screens first, then enhancing for larger screens.
+
+**Responsive Typography** – Font sizes and line spacing adjust to remain readable on all devices.
+
+**Navigation Adaptation** – Menus transform into dropdowns or hamburger menus on small screens.
+
+**Breakpoints** – Predefined screen widths (e.g., 1200px, 992px, 768px, 480px) where the layout changes.
