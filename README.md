@@ -808,3 +808,53 @@ div {
 }
 
 ```
+
+## Section:10
+
+#### CSS Customs properties:
+
+CSS Custom Properties (commonly called CSS Variables) are user-defined values that begin with a 
+double hyphen (--) and can be reused throughout a stylesheet. They allow you to store values (like colors, fonts, sizes, spacing) in one place and access them anywhere in your CSS using the var() function.
+
+**Why do we use CSS Custom Properties (CSS Variables)?**
+
+CSS Custom Properties (also known as CSS Variables) are mainly used to store frequently used values (like colors, font sizes, spacing, etc.) in one place. 
+This makes the code cleaner and makes changes much easier.
+
+**When do we use them?**
+
+**When the same value is used repeatedly**
+
+Suppose your site’s primary color is #3498db.
+
+If you use that color in many places, later if you want to change it, updating it everywhere one by one is difficult.
+
+With a custom property, you just change it in one place and it updates everywhere.
+
+**For creating Dark Mode / Light Mode themes**
+
+If theme-based colors or styles are stored in separate --variables, it becomes very easy to switch themes.
+
+**For reusable and maintainable code**
+
+You don’t have to write the same value again and again.
+
+In large projects, managing styles becomes much easier.
+
+**For changing styles dynamically with JavaScript**
+
+Custom properties can easily be updated from JavaScript. For example, clicking a button can change the color or size instantly.
+
+Example:
+```
+:root {
+  --main-color: #3498db;
+  --font-size: 16px;
+}
+
+p {
+  color: var(--main-color);
+  font-size: var(--font-size);
+}
+
+```
