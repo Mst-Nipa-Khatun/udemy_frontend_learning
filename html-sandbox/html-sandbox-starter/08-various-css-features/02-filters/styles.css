@@ -1,5 +1,25 @@
 img {
   width: 100%;
+  /*-webkit-filter: grayscale(100%);*/
+  /*-moz-filter:grayscale(100%);*/
+  /*-o-filter:grayscale(100%);*/
+  /*-ms-filter: grayscale(100%);*/
+  /*filter:grayscale(100%);*/
+
+  /*filter: blur(5px);*/
+  /*filter:brightness(150%);*/
+  /*filter: contrast(50%);*/
+
+  /*filter: drop-shadow(15px 10px 2px green);*/
+ /* filter:hue-rotate(90deg);
+  filter: invert(100%);
+  filter:opacity(20%);
+  filter: saturate(150%);
+  filter:sepia(100%);*/
+
+  filter:grayscale(50%) blur(5px);
+
+  /*filter: none;*/
 }
 
 .container {
