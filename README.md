@@ -858,3 +858,56 @@ p {
 }
 
 ```
+
+
+#### Vendor Prefix:
+vendor prefix in CSS is a special keyword added before a CSS property (or value) to ensure it works in a specific browser while the feature is still experimental or not fully standardized.
+
+They allow developers to use new or non-standard CSS features before browsers fully adopt them in the official CSS specification.
+```
+.my-box {
+  -webkit-border-radius: 10px; /* For Chrome, Safari, newer Edge */
+  -moz-border-radius: 10px;    /* For Firefox */
+  -o-border-radius: 10px;      /* For old Opera */
+  border-radius: 10px;         /* Standard property */
+}
+
+```
+
+**Common Vendor Prefixes**
+
+-webkit- → Chrome, Safari, newer versions of Edge, Opera
+
+-moz- → Firefox
+
+-ms- → Internet Explorer / old Edge
+
+-o- → Old versions of Opera
+
+#### CSS filter properties:
+The filter property in CSS is used to apply visual effects to elements (like images, backgrounds, or even entire containers).
+These effects include things like blurring, changing brightness, contrast, color, etc.
+```
+| Filter Function| Example                                    | Description                                                                |
+| ---------------| ------------------------------------------ | -------------------------------------------------------------------------- |
+| blur()        | `filter: blur(5px);`                       | Blurs the element by the given radius.                                     |
+| brightness()  | `filter: brightness(150%);`                | Makes the element brighter (`>100%`) or darker (`<100%`).                  |
+| contrast()    | `filter: contrast(200%);`                  | Adjusts contrast. `100%` = normal.                                         |
+| grayscale()   | `filter: grayscale(100%);`                 | Converts image to black & white (`0%` = original, `100%` = fully gray).    |
+| sepia()       | `filter: sepia(100%);`                     | Gives a warm, old-photo (brownish) effect.                                 |
+| saturate()    | `filter: saturate(200%);`                  | Increases or decreases color intensity.                                    |
+| invert()      | `filter: invert(100%);`                    | Inverts colors (like a photo negative).                                    |
+| hue-rotate()  | `filter: hue-rotate(90deg);`               | Rotates the color spectrum.                                                |
+| opacity()     | `filter: opacity(50%);`                    | Makes the element transparent.                                             |
+| drop-shadow() | `filter: drop-shadow(5px 5px 10px black);` | Applies a shadow (like `box-shadow`, but respects transparency in images). |
+
+```
+
+Example:
+```
+img {
+  width: 300px;
+  filter: grayscale(100%) brightness(120%) blur(2px);
+}
+
+```
