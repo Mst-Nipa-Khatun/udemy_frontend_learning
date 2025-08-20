@@ -911,3 +911,29 @@ img {
 }
 
 ```
+
+### Sticky Navigation (Sticky Nav)
+
+A sticky navigation bar is a navigation menu that stays fixed at the top of the page when you scroll. This means the menu remains visible even as the user scrolls down.
+
+```
+.nav {
+    position: sticky;   /* Makes it stick */
+    top: 0;             /* Distance from the top of viewport */
+    background: #333;   /* Background color */
+    color: white;       /* Text color */
+    padding: 10px 0;
+    z-index: 1000;      /* Ensures it stays above other content */
+}
+
+```
+
+**Style on Scroll (Change Nav Style When Scrolling)**
+
+When scrolling, you may want the navigation bar to change its appearance, for example:
+
+Change background color
+
+Add shadow
+
+Change height
