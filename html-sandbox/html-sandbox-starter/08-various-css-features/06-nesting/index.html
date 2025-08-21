@@ -1,18 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com"/>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
-      rel="stylesheet"
+            href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+            rel="stylesheet"
     />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css"/>
     <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Nesting</h1>
-  </body>
+</head>
+<body>
+<header class="header">
+    <h1>Hi Nipa</h1>
+    <p>
+        WHat's up.How about your family,where u stay now?
+        <br><a href="#main">Read More About Nipa</a>
+    </p>
+</header>
+
+<main id="main">
+    <div class="container">
+        <section class="section section-1">
+            <div class="card">
+                <h3>About Skill</h3>
+                <p>
+                    Best for modular, reusable components inside containers
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-2">
+            <div class="card">
+                <h3>About Skill</h3>
+                <p>
+                    Best for modular, reusable components inside containers
+                </p>
+            </div>
+        </section>
+
+        <section class="section section-3">
+            <div class="card">
+                <h3>About Skill</h3>
+                <p>
+                    Best for modular, reusable components inside containers
+                </p>
+            </div>
+        </section>
+    </div>
+</main>
+</body>
 </html>
