@@ -809,6 +809,22 @@ div {
 
 ```
 
+**Difference Between @media queries and @container queries**
+```
+| Aspect               | **@media queries**                                                    | **@container queries**                                                         |
+| -------------------- | --------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| **Core Idea**        | Applies CSS based on the **viewport** (browser window/screen size)    | Applies CSS based on the **size of a parent/container element**                |
+| **Depends on**       | Screen width, height, resolution, orientation, etc.                   | Container’s width/height                                                       |
+| **Usage**            | Controls layout responsiveness for the **entire page**                | Controls responsiveness for **modular components/containers**                  |
+| **Syntax Example**   | `css @media (max-width: 768px) { body { background: lightgreen; } } ` | `css @container (max-width: 500px) { .card { flex-direction: column; } } `     |
+| **Setup Needed**     | No special setup, works directly                                      | Requires defining `container-type` (e.g., `inline-size`) on the parent element |
+| **Flexibility**      | Best for controlling overall page layout                              | Best for modular, reusable components inside containers                        |
+| **Browser Support**  | Works everywhere, including old browsers                              | Supported in modern browsers (Chrome, Firefox, Safari, Edge latest)            |
+| **Example Use Case** | Adjusting layout for **mobile vs desktop**                            | Making **cards, sidebars, widgets** responsive to their parent size            |
+
+```
+
+<hr>
 ## Section:10
 
 #### CSS Customs properties:
