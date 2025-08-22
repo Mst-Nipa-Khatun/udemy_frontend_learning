@@ -825,6 +825,7 @@ div {
 ```
 
 <hr>
+
 ## Section:10
 
 #### CSS Customs properties:
@@ -839,7 +840,7 @@ This makes the code cleaner and makes changes much easier.
 
 **When do we use them?**
 
-**When the same value is used repeatedly**
+**-- When the same value is used repeatedly**
 
 Suppose your site’s primary color is #3498db.
 
@@ -847,17 +848,17 @@ If you use that color in many places, later if you want to change it, updating i
 
 With a custom property, you just change it in one place and it updates everywhere.
 
-**For creating Dark Mode / Light Mode themes**
+**-- For creating Dark Mode / Light Mode themes**
 
 If theme-based colors or styles are stored in separate --variables, it becomes very easy to switch themes.
 
-**For reusable and maintainable code**
+**-- For reusable and maintainable code**
 
 You don’t have to write the same value again and again.
 
 In large projects, managing styles becomes much easier.
 
-**For changing styles dynamically with JavaScript**
+**-- For changing styles dynamically with JavaScript**
 
 Custom properties can easily be updated from JavaScript. For example, clicking a button can change the color or size instantly.
 
@@ -877,6 +878,7 @@ p {
 
 
 #### Vendor Prefix:
+
 vendor prefix in CSS is a special keyword added before a CSS property (or value) to ensure it works in a specific browser while the feature is still experimental or not fully standardized.
 
 They allow developers to use new or non-standard CSS features before browsers fully adopt them in the official CSS specification.
@@ -953,3 +955,75 @@ Change background color
 Add shadow
 
 Change height
+
+## Section 12:Git and GitHub:
+
+### Git:
+
+Git is a distributed version control system that tracks changes in files and allows multiple developers to work together without overwriting each other’s work.
+
+**Why we use Git:**
+
+--To keep a history of changes in code.
+
+--To collaborate with other developers.
+
+--To experiment safely using branches.
+
+--To revert to previous versions if needed.
+
+**When we use Git:**
+
+--During software development projects.
+
+--When we want to track changes in code, documents, or configuration files.
+
+--When working in teams or on open-source projects.
+
+
+**Features of Git:**
+
+--Distributed version control
+
+--Branching and merging
+
+--Tracks changes line by line
+
+--Works offline
+
+--Supports collaboration
+
+
+### GitHub
+
+GitHub is a cloud-based platform that hosts Git repositories and allows developers to collaborate on projects online.
+
+**Why we use GitHub:**
+
+--To store code in the cloud.
+
+--To share projects publicly or privately.
+
+--To collaborate via pull requests and code reviews.
+
+--To showcase portfolio of projects.
+
+**When we use GitHub:**
+
+--When working with teams remotely.
+
+--When contributing to open-source projects.
+
+--When we want to backup projects online.
+
+**Features of GitHub:**
+
+--Online Git repository hosting
+
+--Pull requests and code reviews
+
+--Issue tracking
+
+--Project management boards
+
+--Integration with CI/CD pipelines
