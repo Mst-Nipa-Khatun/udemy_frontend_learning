@@ -1027,3 +1027,63 @@ GitHub is a cloud-based platform that hosts Git repositories and allows develope
 --Project management boards
 
 --Integration with CI/CD pipelines
+
+### SSH (Secure Shell)
+
+SSH (Secure Shell) is a network protocol that provides a secure way to connect to another computer over an unsecured network. It encrypts the communication between client and server.
+
+**Why we use SSH:**
+
+To securely log in to remote servers.
+
+To transfer files safely between computers.
+
+To run commands on remote systems.
+
+To connect GitHub/GitLab with your computer without entering your username/password every time.
+
+**When we use SSH:**
+
+When managing remote servers (like cloud servers: AWS, DigitalOcean, etc.).
+
+When you need to deploy code to a server.
+
+When setting up a secure connection to GitHub.
+
+When doing remote administration of Linux/Unix systems.
+
+**Features of SSH:**
+
+**Encryption** → Secures communication.
+
+**Authentication** → Uses username, password, or key-based login.
+
+**Port forwarding** → Tunnels network traffic securely.
+
+**SCP & SFTP** → Securely copy/move files.
+
+**Key-based login** → No need to type password every time.
+
+**Examples of SSH Usage:**
+
+Login to remote server:
+```
+ssh user@192.168.1.10
+
+```
+
+Copy a file using SCP (Secure Copy):
+```
+scp file.txt user@192.168.1.10:/home/user/
+
+```
+Generate SSH Key (for GitHub):
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+
+```
+Connect GitHub with SSH:
+```
+git remote add origin git@github.com:username/repo.git
+
+```
