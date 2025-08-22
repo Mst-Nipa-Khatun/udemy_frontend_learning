@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/my-self-way-practice/lumina-creative/lumina-creative" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/website-project/lumina-creative/luminaCreativeWebsite" vcs="Git" />
   </component>
 </project>
