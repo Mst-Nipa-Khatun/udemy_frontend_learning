@@ -1087,3 +1087,69 @@ Connect GitHub with SSH:
 git remote add origin git@github.com:username/repo.git
 
 ```
+
+### Git Workflow
+
+The common steps when working with Git are:
+
+**1.Initialize Repository**
+
+Start Git in a new project or clone an existing one.
+
+**2.Modify (Working Directory)**
+
+Make changes to your code/files.
+
+**3.Stage (Staging Area)**
+
+Select which changes you want to save (prepare for commit).
+
+**4.Commit (Local Repository)**
+
+Save the staged changes into your local repository.
+
+**5.Push (Remote Repository)**
+
+Send local commits to a remote repository (like GitHub/GitLab).
+
+**6.Pull / Fetch**
+
+Get the latest updates from the remote repository into your local one.
+
+**Git Workflow Diagram**
+```
+Working Directory  →  Staging Area  →  Local Repo  →  Remote Repo
+       (edit)           (git add)       (git commit)     (git push)
+
+```
+
+Common Git Commands:
+```
+|   Command                       | Description                                         |
+| ------------------------------- | ------------------------------------------------------- |
+| `git init`                      | Initialize a new Git repository                         |
+| `git clone <url>`               | Clone an existing repository from a URL                 |
+| `git status`                    | Show the working tree status                            |
+| `git add <file>`                | Add file(s) to the staging area                         |
+| `git add .`                     | Add all changes to the staging area                     |
+| `git commit -m "message"`       | Commit changes with a message                           |
+| `git commit -am "message"`      | Stage and commit tracked files in one step              |
+| `git log`                       | Show commit history                                     |
+| `git diff`                      | Show changes between commits or working tree            |
+| `git branch`                    | List all branches                                       |
+| `git branch <branch>`           | Create a new branch                                     |
+| `git checkout <branch>`         | Switch to a branch                                      |
+| `git checkout -b <branch>`      | Create and switch to a new branch                       |
+| `git merge <branch>`            | Merge a branch into the current branch                  |
+| `git remote -v`                 | Show remote repositories                                |
+| `git remote add <name> <url>`   | Add a new remote repository                             |
+| `git push <remote> <branch>`    | Push commits to a remote branch                         |
+| `git push -u <remote> <branch>` | Push and set upstream tracking                          |
+| `git pull`                      | Fetch and merge changes from remote                     |
+| `git fetch`                     | Fetch changes from remote without merging               |
+| `git stash`                     | Save changes temporarily                                |
+| `git stash apply`               | Reapply stashed changes                                 |
+| `git reset --hard <commit>`     | Reset to a specific commit, discarding changes          |
+| `git rm <file>`                 | Remove a file from the repository and working directory |
+
+```
