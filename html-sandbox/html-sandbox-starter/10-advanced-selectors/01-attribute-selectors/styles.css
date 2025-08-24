@@ -9,7 +9,7 @@ body {
 }
 
 nav {
-  background-color: #007bff;
+  background-color: #7a9cc1;
   color: #fff;
   padding: 10px;
 }
@@ -60,7 +60,7 @@ textarea {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #79848f;
   color: #fff;
   padding: 10px 20px;
   border: none;
@@ -73,19 +73,45 @@ button:hover {
 }
 
 /* Select by type attribute */
+input[type="email"]{
+  border-color: green;
+}
 
 /* Select by name attribute */
 
+input[name="name"]{
+  border-color: blue;
+}
+
 /* Select text type and id of name */
 
+input[type='text'][id="name"]{
+  background: lightgrey;
+}
 /* Select required inputs */
+input[required]{
+  border-color: lightcoral;
+}
 
 /* Select password with a maxlength of 8 */
+input[type='password'][maxlength='8']{
+  background: #c6cd95;
+}
 
 /* Select button with type of submit */
+button[type='submit']{
+  background: lightpink;
+}
 
 /* Select only links that have a href attribute starting with # */
-
+a[href^='#']{
+  color: #bd3a5d;
+}
 /* Select only links that have a href attribute ending with .com */
-
+a[href$='.com']{
+  color: darkgreen;
+}
 /* Select only links that have a href attribute containing traversy */
+a[href='traversy']{
+  text-decoration: underline;
+}
