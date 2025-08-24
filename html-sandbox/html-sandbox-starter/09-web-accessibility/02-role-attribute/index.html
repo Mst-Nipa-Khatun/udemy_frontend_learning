@@ -1,12 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style.css" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" href="./style.css"/>
     <title>HTML & CSS Sandbox</title>
-  </head>
-  <body>
-    <h1>HTML & CSS Sandbox - Role Attribute</h1>
-  </body>
+</head>
+<body>
+<!--bnnaer-->
+<header role="banner">
+    <h1>My website</h1>
+    <p>Welcome to my page</p>
+
+</header>
+<!--button-->
+<main role="main">
+    <h2>My details</h2>
+
+</main>
+<a href="/" role="button">Click me</a>
+<img src="https://picsum.photos/200/300" alt="random" role="button"
+     aria-label="Button to open medol" tabindex="0">
+
+
+<h2>Available fruits</h2>
+<!--listbox and option-->
+<ul role="listbox" aria-label="Availbel fruits">
+    <li role="option">Apple</li>
+    <li role="option">Mango</li>
+    <li role="option">Banana</li>
+</ul>
+<!--Region-->
+<div role="region" aria-label="RAQ setion">
+    <h2>FAQ</h2>
+    <p>This is faq section</p>
+</div>
+<!--ALert-->
+<div role="alert">
+    <p>Post Save</p>
+</div>
+
+<script>
+    document.querySelector('img').addEventListener('click', function () {
+        alert("Image click")
+    })
+</script>
+</body>
 </html>
