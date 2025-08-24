@@ -1287,3 +1287,39 @@ They are not real elements in the DOM but act like virtual elements to target pa
 | `::marker`       | Styles the **marker of list items** (like bullets or numbers).           |
 
 ```
+
+## Section 15:CSS Grid
+CSS Grid is a 2-dimensional layout system in CSS that allows 
+you to control both rows and columns. It is designed to make complex web layouts easier and more flexible.
+
+
+**Why we use CSS Grid**
+
+* Can control both rows and columns at the same time.
+* 
+* Makes responsive layouts easier.
+* 
+* Reduces the limitations of float and flexbox.
+* 
+* Helps build complex layouts with less code.
+<br>
+
+**Why we use CSS Grid**
+
+* Can control both rows and columns at the same time.
+* Makes responsive layouts easier.
+
+* Reduces the limitations of float and flexbox.
+* Helps build complex layouts with less code.
+
+**Key Properties**
+
+* **display**: grid → Enables grid layout.
+
+* **grid-template-rows** → Defines the number/size of rows.
+
+* **grid-template-columns** → Defines the number/size of columns.
+
+* **gap (or grid-gap)** → Sets spacing between rows and columns.
+
+* **grid-row / grid-column** → Controls where each child element is placed.
