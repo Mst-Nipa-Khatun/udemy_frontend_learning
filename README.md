@@ -1339,3 +1339,17 @@ Align & Justify in CSS Grid:
 | align-content   | Vertical   | Aligns the whole grid inside the container (top, center, bottom, space-               |
 
 ```
+
+#### auto-fit and auto-fill:
+
+Basic Difference:
+```
+| Feature               | auto-fill                                                     | auto-fit                                                       |
+| --------------------- | ------------------------------------------------------------- | -------------------------------------------------------------- |
+| Tracks (columns/rows) | Creates as many as will fit, even if some are empty           | Creates as many as will fit, but collapses empty tracks        |
+| Empty tracks          | Remain visible (but empty)                                    | Disappear (collapsed)                                          |
+| Space usage           | Leaves unused gaps if not enough items                        | Distributes extra space among existing items                   |
+| Common usage          | When you want a fixed number of slots, even if they are empty | When you want items to stretch and use all available space     |
+| Example               | `grid-template-columns: repeat(auto-fill, 150px);`            | `grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));` |
+
+```
