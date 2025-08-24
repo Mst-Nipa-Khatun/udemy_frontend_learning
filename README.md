@@ -1265,3 +1265,25 @@ ARIA (Accessible Rich Internet Applications) Attributes used in web accessibilit
 | `aria-orientation` | Defines the **orientation** of a widget (`horizontal` or `vertical`).                             |
 
 ```
+
+### Pseudo-elements:
+
+Pseudo-elements are keywords added to selectors that let you style specific parts of an element without adding extra HTML.
+
+They are not real elements in the DOM but act like virtual elements to target parts of content.
+
+**Common Pseudo-Elements in CSS:**
+
+```
+| Pseudo-Element   | Description                                                              |
+| ---------------- | ------------------------------------------------------------------------ |
+| `::before`       | Inserts content **before** the content of an element.                    |
+| `::after`        | Inserts content **after** the content of an element.                     |
+| `::first-letter` | Targets the **first letter** of an element.                              |
+| `::first-line`   | Targets the **first line** of text inside an element.                    |
+| `::selection`    | Styles the part of an element **highlighted/selected by the user**.      |
+| `::backdrop`     | Styles the **background behind a modal element** (used with `<dialog>`). |
+| `::placeholder`  | Styles the **placeholder text** of input or textarea fields.             |
+| `::marker`       | Styles the **marker of list items** (like bullets or numbers).           |
+
+```
