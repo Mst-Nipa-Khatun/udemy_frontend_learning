@@ -1,3 +1,22 @@
 body {
   font-family: Arial, sans-serif;
 }
+.container{
+  max-width: 800px;
+  margin: 30px auto;
+  background: #cccccc;
+}
+
+.item{
+  background-color: lightskyblue;
+  padding: 1rem;
+  border: 1px solid black;
+  text-align: center;
+}
+.item-grid{
+  display: grid;
+  /*grid-template-columns:repeat(auto-fit,minmax(100px,1fr));*/
+  grid-template-columns:repeat(auto-fill,minmax(100px,1fr));
+  background: #ece4e4;
+  /*gap: 20px;*/
+}
