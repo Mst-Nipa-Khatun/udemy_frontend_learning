@@ -1429,3 +1429,21 @@ animation-name
 | line-height              | Animate spacing between lines of text.                                       |
 
 ```
+
+### Transform Property:
+The transform property in CSS allows you to move, rotate, scale, or skew elements in 2D or 3D space.
+It does not affect the document flow, so the element can visually move without affecting other elements around it.
+```
+| Function                 | Description                                               |
+| ------------------------ | --------------------------------------------------------- |
+| translate(x, y)          | Moves the element horizontally (x) and vertically (y).    |
+| translateX(x)            | Moves the element only horizontally.                      |
+| translateY(y)            | Moves the element only vertically.                        |
+| scale(x, y)              | Resizes the element horizontally (x) and vertically (y).  |
+| scaleX(x)                | Resizes the element horizontally.                         |
+| scaleY(y)                | Resizes the element vertically.                           |
+| rotate(angle)            | Rotates the element by the specified angle (e.g., 45deg). |
+| skew(x-angle, y-angle)   | Skews the element along X and Y axes.                     |
+| skewX(x-angle)           | Skews only along X axis.                                  |
+| skewY(y-angle)           | Skews only along Y axis.                                  |
+```
