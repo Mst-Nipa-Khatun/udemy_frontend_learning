@@ -1353,3 +1353,79 @@ Basic Difference:
 | Example               | `grid-template-columns: repeat(auto-fill, 150px);`            | `grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));` |
 
 ```
+
+## Section 16:
+
+CSS Transitions allow you to smoothly change property values (like color, size, position, opacity, etc.) over a given duration, instead of happening instantly.
+
+Example: when you hover on a button, its background color can fade gradually instead of changing suddenly.
+
+
+**Why use CSS Transitions?**
+
+* To create smooth animations without JavaScript.
+
+* Make UI more interactive and attractive.
+
+* Guide the user’s attention (like hover effects, menu opening, etc.).
+
+
+**How it works**
+
+You define which CSS property should transition.
+
+You set the duration of the transition.
+
+When the property changes (e.g., on hover), it will animate smoothly.
+
+### CSS Animation
+CSS Animations let you create complex, multi-step animations by defining keyframes. Unlike transitions (which only animate when a property changes), animations can run automatically, repeatedly, and with more control.
+
+**Why use CSS Animations?**
+
+To create continuous or repeated effects (e.g., spinning icon, bouncing ball).
+
+For multi-step changes (e.g., move an element → change color → fade out).
+
+More control than transitions (start, loop, direction, delay, etc.).
+
+**How it works**
+
+You define @keyframes → describes the steps of the animation.
+
+You apply the animation to an element with properties like:
+
+animation-name
+
+* animation-duration
+
+* animation-iteration-count
+
+* animation-timing-function
+
+* animation-delay
+
+* animation-direction
+
+### common animatable CSS properties
+```
+| Property                 | Description                                                                  |
+| ------------------------ | ---------------------------------------------------------------------------- |
+| opacity                  | Transparency of an element (0 → 1).                                          |
+| transform                | Move, scale, rotate, skew elements (`translate`, `scale`, `rotate`, `skew`). |
+| background-color         | Change background color gradually.                                           |
+| color                    | Change text color gradually.                                                 |
+| width                    | Change the width of an element.                                              |
+| height                   | Change the height of an element.                                             |
+| top, bottom, left, right | Move element position (requires `position: relative/absolute/fixed`).        |
+| margin                   | Animate spacing around an element.                                           |
+| padding                  | Animate inner spacing of an element.                                         |
+| border-width             | Animate the thickness of borders.                                            |
+| border-color             | Animate the color of borders.                                                |
+| border-radius            | Animate corner roundness.                                                    |
+| box-shadow               | Animate shadow effects.                                                      |
+| font-size                | Animate text size.                                                           |
+| letter-spacing           | Animate spacing between letters.                                             |
+| line-height              | Animate spacing between lines of text.                                       |
+
+```
