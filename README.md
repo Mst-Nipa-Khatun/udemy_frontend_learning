@@ -1239,3 +1239,29 @@ Types of Devices:
 | role="tooltip"       | Provides extra information when hovering or focusing.              |
 
 ```
+
+### ARIA
+
+ARIA (Accessible Rich Internet Applications) Attributes used in web accessibility:
+
+**Common ARIA Attributes**
+```
+| ARIA Attribute     | Description                                                                                       |
+| ------------------ | ------------------------------------------------------------------------------------------------- |
+| `role`             | Defines the **purpose or type** of an element (e.g., button, dialog, navigation).                 |
+| `aria-label`       | Provides a **text label** for an element when there is no visible label.                          |
+| `aria-labelledby`  | References another element that **labels this element**.                                          |
+| `aria-describedby` | References another element that **provides additional description**.                              |
+| `aria-hidden`      | Hides elements from **screen readers** (`true` = hidden, `false` = visible).                      |
+| `aria-live`        | Marks **live regions** where content updates are announced automatically (`polite`, `assertive`). |
+| `aria-atomic`      | Determines whether **the whole region or only changed parts** are announced (`true` or `false`).  |
+| `aria-expanded`    | Indicates whether a **collapsible element** (like a menu) is expanded or collapsed.               |
+| `aria-checked`     | Indicates the **state of checkable elements** (checkbox, radio) (`true`, `false`, `mixed`).       |
+| `aria-disabled`    | Marks an element as **disabled**, so it is not interactive.                                       |
+| `aria-required`    | Marks a form element as **required**.                                                             |
+| `aria-selected`    | Indicates whether an item in a **list or tab** is selected.                                       |
+| `aria-haspopup`    | Indicates that an element **triggers a popup** (menu, dialog, etc.).                              |
+| `aria-controls`    | References the element(s) that are **controlled** by this element.                                |
+| `aria-orientation` | Defines the **orientation** of a widget (`horizontal` or `vertical`).                             |
+
+```
