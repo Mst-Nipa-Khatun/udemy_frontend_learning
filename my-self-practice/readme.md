@@ -1,8 +1,4 @@
-# Lumina Creative
-
-## How I learned creating this website:
-
-### Summary of Learning:
+### Lumina Creative Website - Summary of Learning
 
 #### HTML Structure & Semantic Markup:
 
