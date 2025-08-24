@@ -1323,3 +1323,19 @@ you to control both rows and columns. It is designed to make complex web layouts
 * **gap (or grid-gap)** → Sets spacing between rows and columns.
 
 * **grid-row / grid-column** → Controls where each child element is placed.
+
+####   Align and Justify:
+
+Align & Justify in CSS Grid:
+
+```
+| Property        | Axis       | Description                                                                           |
+| --------------- | ---------- | ------------------------------------------------------------------------------------- |
+| justify-items   | Horizontal | Aligns all grid items inside their cells (left, center, right, stretch).              |
+| align-items     | Vertical   | Aligns all grid items inside their cells (top, middle, bottom, stretch).              |
+| justify-self    | Horizontal | Aligns a single grid item inside its cell (left, center, right, stretch).             |
+| align-self      | Vertical   | Aligns a single grid item inside its cell (top, middle, bottom, stretch).             |
+| justify-content | Horizontal | Aligns the whole grid inside the container (left, center, right, space-around, etc.). |
+| align-content   | Vertical   | Aligns the whole grid inside the container (top, center, bottom, space-               |
+
+```
