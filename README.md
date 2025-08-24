@@ -1201,3 +1201,41 @@ Types of Devices:
 | Hearing Loop Systems             | Transmit audio directly to hearing aids in public spaces.                                                |
 
 ```
+<hr>
+
+#### Role Categories in Accessibility (WAI-ARIA):
+
+```
+| Role Category            | Description                                                                                                    |
+| ------------------------ | -------------------------------------------------------------------------------------------------------------- |
+| Abstract Roles           | Conceptual roles used for defining rules, not used directly in HTML (e.g., `roletype`, `structure`, `widget`). |
+| Landmark Roles           | Define major regions of a page for navigation (e.g., `banner`, `main`, `navigation`, `search`, `contentinfo`). |
+| Document Structure Roles | Describe the structure of content (e.g., `article`, `heading`, `list`, `listitem`, `table`).                   |
+| Widget Roles             | Interactive UI components (e.g., `button`, `checkbox`, `dialog`, `menu`, `tab`, `tooltip`).                    |
+| Composite Widget Roles   | Containers that manage multiple widgets (e.g., `grid`, `tablist`, `tree`).                                     |
+| Window Roles             | Define elements that behave like windows (e.g., `alert`, `dialog`).                                            |
+
+```
+
+**Common Role Attributes**
+
+```
+| Role Attribute       | Description                                                        |
+| -------------------- | ------------------------------------------------------------------ |
+| role="banner"        | Represents the main site header, usually containing logo or title. |
+| role="navigation"    | Identifies a navigation section (menus, links).                    |
+| role="main"          | Marks the primary content of the page.                             |
+| role="contentinfo"   | Defines the footer or area with information about the site.        |
+| role="complementary" | Marks complementary content (like a sidebar).                      |
+| role="form"          | Defines a region that contains a form.                             |
+| role="search"        | Marks a search functionality area.                                 |
+| role="button"        | Identifies an element as a button.                                 |
+| role="link"          | Identifies an element as a link.                                   |
+| role="dialog"        | Represents a dialog box or modal window.                           |
+| role="alert"         | Notifies the user of an urgent message.                            |
+| role="progressbar"   | Represents the status of a process (like loading).                 |
+| role="tablist"       | Marks a container for a set of tabs.                               |
+| role="tabpanel"      | Marks content that is associated with a tab.                       |
+| role="tooltip"       | Provides extra information when hovering or focusing.              |
+
+```
